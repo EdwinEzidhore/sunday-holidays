@@ -1,7 +1,7 @@
 $('.carousel-testimony').owlCarousel({
     loop:true,
     margin:10,
-	nav: true,
+	nav: false,
 	autoplay:true,
     responsive:{
         0:{
@@ -20,7 +20,8 @@ $('.carousel-testimony').owlCarousel({
 $('.carousel-cabs').owlCarousel({
     loop:true,
     margin:10,
-	nav: true,
+    nav: false,
+    dots:false,
 	autoplay:true,
     responsive:{
         0:{
